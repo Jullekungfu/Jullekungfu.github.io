@@ -16,7 +16,9 @@ body {
   .page .header .navigationMenu {
     float: right;
     width: 300px;
-    height: 75px; }
+    height: 75px;
+    font-family: "Futura Medium", sans-serif;
+    text-transform: uppercase; }
     .page .header .navigationMenu ul {
       list-style: none;
       margin: 0;
@@ -28,10 +30,14 @@ body {
         line-height: 75px;
         padding: 0 20px;
         transition: all 0.2s ease-in-out; }
+        .page .header .navigationMenu ul li a {
+          text-decoration: none;
+          color: black; }
         .page .header .navigationMenu ul li:hover {
           background: #393276; }
           .page .header .navigationMenu ul li:hover a {
-            color: white; }
+            color: white;
+            text-decoration: none; }
 .page .content {
   height: 100vh;
   width: 100vw;
