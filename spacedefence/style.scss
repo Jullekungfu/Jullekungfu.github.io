@@ -78,6 +78,14 @@ body{
 				text-align: center;
 			}
 			
+            &.screenshots{
+                
+                img{
+                    max-width: 100%;
+                    max-height: 400px;
+                }
+            }            
+
 			.box{
 				padding: 15px 20px;
 				background:  rgba(255, 255, 255, 0.7);
