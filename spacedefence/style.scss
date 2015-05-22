@@ -26,6 +26,12 @@ body{
 		background: #ffffff;
 		top:0;
 
+		.htitle{
+			float:left; 
+			font-size:30px;
+			font-family: "Andale Mono", sans-serif;
+		}
+
 		li{
 					display: table-cell;
 					margin: 0;

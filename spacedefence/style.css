@@ -30,6 +30,10 @@ body {
   border-bottom: 1px solid #aaa;
   background: #ffffff;
   top: 0; }
+  .page .header .htitle {
+    float: left;
+    font-size: 30px;
+    font-family: "Andale Mono", sans-serif; }
   .page .header li {
     display: table-cell;
     margin: 0;
